@@ -1,10 +1,10 @@
 # GT-CSE-6250-Replication-Study-Project-on-Advanced-Healthcare-Analytics
 
-Overview
+# Overview
 
 This repository contains all the necessary code, data, and documentation for the replication study of the LSTM-based model for early sepsis prediction, as introduced in the GT CSE 6250 course. Our study focuses on validating the predictive accuracy, interpretability, and handling of irregular time intervals by the model.
 
-Project Structure
+# Project Structure
 .
 ├── data/                   # Folder for datasets used in the project
 ├── src/                    # Source code for the replication study
@@ -21,11 +21,11 @@ To install the required Python packages, run:
 
 pip install -r requirements.txt
 
-Data
+# Data
 
 The dataset is derived from the Cerner Health Facts database and accessed via the original authors' GitHub page. Due to privacy constraints, the full dataset is not publicly available. The data folder includes a sample of the final cohort used for our analyses.
 
-Usage
+# Usage
 
 Data Preprocessing
 To preprocess the data, navigate to the src/preprocessing directory and execute:
@@ -39,9 +39,9 @@ Evaluation
 To evaluate the model and generate results, navigate to the src/evaluation directory and execute:
 python evaluate.py
 
-Contributing
+# Contributing
 
 We welcome contributions and suggestions to improve the replication study. Please submit pull requests or open issues for any enhancements you propose.
 
-Acknowledgements
+# Acknowledgements
 Thanks to the instructors and contributors of the GT CSE 6250 course for providing the foundation for this replication study.
